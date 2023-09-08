@@ -9,8 +9,8 @@ painter.forward(100)
 painter.left(180)
 painter.pendown()
 j=0
-for Cppsecrets in range(2):
-    painter.pencolor("red")
+for j in range(2):
+    painter.pencolor("green")
     for i in range(150):
         painter.forward(100)
         painter.left(111) 
@@ -18,7 +18,7 @@ for Cppsecrets in range(2):
     painter.right(90*j)
     painter.pendown()
     #################################################################
-    painter.pencolor("dark blue")
+    painter.pencolor("red")
     for i in range(150):
         painter.forward(102)
         painter.right(111) 
@@ -26,7 +26,7 @@ for Cppsecrets in range(2):
     painter.right(180*j)
     painter.pendown()
     ###################################################################
-    painter.pencolor("dark violet")
+    painter.pencolor("blue")
     for i in range(150):
         painter.forward(104)
         painter.left(111) 
@@ -34,7 +34,7 @@ for Cppsecrets in range(2):
     painter.right(90*j)
     painter.pendown()
     #####################################################################
-    painter.pencolor("dark red")
+    painter.pencolor("violet")
     for i in range(150):
         painter.forward(106)
         painter.right(111) 
@@ -42,7 +42,7 @@ for Cppsecrets in range(2):
     painter.right(180*j)
     painter.pendown()
     #####################################################################
-    painter.pencolor("dark orange")
+    painter.pencolor("orange")
     for i in range(150):
         painter.forward(104)
         painter.left(111) 
@@ -106,7 +106,7 @@ for Cppsecrets in range(2):
     painter.right(90*j)
     painter.pendown()
     #####################################################################
-    painter.pencolor("dark blue")
+    painter.pencolor("blue")
     for i in range(150):
         painter.forward(102)
         painter.right(111) 
@@ -114,7 +114,7 @@ for Cppsecrets in range(2):
     painter.right(180*j)
     painter.pendown()
     #####################################################################
-    painter.pencolor("dark grey")
+    painter.pencolor("white")
     for i in range(150):
         painter.forward(100)
         painter.left(111) 
