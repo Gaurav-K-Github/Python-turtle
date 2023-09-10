@@ -8,8 +8,8 @@ painter.goto(0,0)
 painter.forward(100)
 painter.left(180)
 painter.pendown()
-j=0
-for j in range(2):
+k=0
+for k in range(2):
     painter.pencolor("green")
     for i in range(150):
         painter.forward(100)
